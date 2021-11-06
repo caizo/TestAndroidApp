@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">saludApp</string>
+    <string name="write_your_name">Write your name</string>
+    <string name="accept">Accept</string>
+    <string name="err_name_cannot_be_empty">Name cannot be empty mico</string>
+    <string name="go_back">Go Back</string>
+</resources>
