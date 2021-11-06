@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
          * usamos binding.
          */
         binding.btnGreeting.setOnClickListener{checkName()}
+        /** listener para el botón de cargar la activity de RecyclerView */
+        binding.btnRecyclerView.setOnClickListener { goToRecyclerViewActivity() }
     }
 
     /**
@@ -46,5 +48,11 @@ class MainActivity : AppCompatActivity() {
      */
     private fun showErrorName(){
         Toast.makeText(this,getString(R.string.err_name_cannot_be_empty),Toast.LENGTH_SHORT).show()
+    }
+
+
+    fun goToRecyclerViewActivity(){
+        val intent = Intent(this,RecyclerViewActivity::class.java)
+        startActivity(intent)
     }
 }

@@ -25,5 +25,13 @@
         android:layout_height="wrap_content"
         android:text="@string/accept" />
 
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:textColor="#34EC0A"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView" />
+
 </FrameLayout>
 
